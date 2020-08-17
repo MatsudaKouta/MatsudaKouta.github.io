@@ -1,0 +1,27 @@
+
+#profile {
+    position: relative;
+    background-color: #eeeeee;
+    z-index:2;
+    &::before{
+        content:"";
+        position:absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-style:solid;
+
+        border-width:0 0 200px 100vw;
+        border-color: transparent transparent #fff transparent;
+        z-index: -1;
+    }
+}
+
+
+.profile-wrap {
+    margin-top: $mt;
+    p {
+        font-size: $pfont;
+    }
+}

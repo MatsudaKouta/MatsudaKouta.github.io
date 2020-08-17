@@ -1,0 +1,17 @@
+.skill-wrap {
+  margin-top: $mt;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .skill-item{
+    width: 30%;
+    padding-bottom: 20px;
+    .icon {
+        font-size:5rem;
+    }
+  }
+  p {
+      font-size: $pfont;
+    }
+    
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/c30333f671.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>松田宏太のポートフォリオサイトです</title>
+  </head>
+  <body>
+    <header>
+      <div class="hd-wrap">
+        <h1 class="hd-logo">「松田宏太」Matsuda Kouta ポートフォリオサイト</h1>
+        <nav class="pc-nav">
+          <ul>
+            <li><a href="#">このサイトについて</a></li>
+            <li><a href="#">自己紹介</a></li>
+            <li><a href="#">スキル</a></li>
+            <li><a href="#">ポートフォリオ</a></li>
+            <li><a href="#">連絡先</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="first-v">
+        <div class="first-v__wrap">
+          <h2 class="main-title">誠実に、寄り添う</h2>
+          <p>
+            サンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプル
+          </p>
+        </div>
+        <div class="first-v__img"></div>
+        <div class="loading-wrap">
+          <div class="loading"></div>
+          <div class="loading"></div>
+          <div class="loading"></div>
+          <div class="loading"></div>
+          <div class="loading"></div>
+          <div class="loading"></div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="inner">
+          <h3 class="sub-title">このサイトについて</h3>
+          <div class="about-wrap">
+            <p>
+              「丁寧に、寄り添う」をモットーにお客様に価値を提供する松田宏太のポートフォリオサイトです
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="profile">
+        <div class="inner">
+          <h3 class="sub-title">プロフィール</h3>
+          <div class="profile-wrap">
+            <p>1987年４月９日生まれ　千葉県在住　妻・長男と3人暮らし。</p>
+            <p>
+              エンジニアとしては遅いスタートですが一生懸命仕事をさせていただきます。
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="skill">
+        <div class="inner">
+          <h3 class="sub-title">スキル</h3>
+          <div class="skill-wrap">
+            <div class="skill-item">
+              <p>html</p>
+              <i class="fab fa-html5 icon"></i>
+            </div>
+            <div class="skill-item">
+              <p>css</p>
+              <i class="fab fa-css3-alt icon"></i>
+            </div>
+            <div class="skill-item">
+              <p>sass</p>
+              <i class="fab fa-sass icon"></i>
+            </div>
+            <div class="skill-item">
+              <p>JavaScript</p>
+              <i class="fab fa-js icon"></i>
+            </div>
+            <div class="skill-item">
+              <p>React</p>
+              <i class="fab fa-react icon"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="portfolio">
+        <div class="inner">
+          <h3 class="sub-title">ポートフォリオ</h3>
+          <div class="portfolio-wrap">
+            <div class="portfolio-item">
+              <img src="" alt="" />
+              <p>ポートフォリオサイトです。レスポンシブ対応しています。</p>
+            </div>
+            <div class="portfolio-item">
+              <img src="./img/quizgameApp.png" alt="クイズゲームアプリの画像です" />
+              <p>JavaScriptで作成したクイズゲームアプリです。三択ゲームで合否を計算します。</p>
+                 <p>
+                <a class="pf-git" href="https://github.com/MatsudaKouta/portfolio-QuizGame">GitHub</a>
+              </p>
+            </div>
+            <div class="portfolio-item">
+              <img src="./img/counselingApp.png" alt="カウンセリングアプリの画像です" />
+              <p>
+                Reactで作成した記録アプリです。学生のカウンセリングを目的としています。
+              </p>
+              <p>
+                <a class="pf-git" href="https://github.com/MatsudaKouta/portfolio">GitHub</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="inner">
+          <h3 class="sub-title">連絡先</h3>
+          <div class="contact-wrap">
+            <p>制作の依頼・それ以外のご相談等お気軽にお問い合わせください</p>
+            <p>下記フォームへの入力をお願いいたします。</p>
+            <form action="https://api.staticforms.xyz/submit" method="post" class="contact-form">
+              <div class="contact-item">
+                <p>貴社名</p>
+                <input id="company" type="text" name="$企業名" placeholder="例：〇〇株式会社"/>
+              </div>
+              <div class="contact-item">
+                <p>ご担当者様</p>
+                <input id="responsibility"type="text" name="$担当者名" placeholder="例：松田宏太"/>
+              </div>
+              <div class=contact-item>
+                <p>メールアドレス</p>
+                <input id="email" type="text" name="$email" placeholder="例：〇〇@〇〇.jp"/>
+              </div>
+              </div>
+              <div class=contact-item>
+                <p>お問い合わせ内容</p>
+              <textarea id="question" name="$問い合わせ内容" class="form-q"></textarea>
+              </div>
+              <input type="text" name="honeypot" style="display: none;" />
+              <input
+                type="hidden"
+                name="accessKey"
+                value="d8db9e64-8977-420b-970f-e6be661c1a5a"
+              />
+              <input
+                type="hidden"
+                name="subject"
+                value="portfolioサイトからの問い合わせ"
+              />
+              <input type="hidden" name="replyTo" value="@" />
+              <input
+                type="hidden"
+                name="redirectTo"
+                value="file:///C:/Users/kou87/onedrive/portfolio/index.html"
+              />
+              <input id="submit" type="submit" value="送信" class="contact-submit"/>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id=footer>
+      <div class="inner">
+         <nav class="footer-link">
+          <ul>
+            <li><a href="#">このサイトについて</a></li>
+            <li><a href="#">自己紹介</a></li>
+            <li><a href="#">スキル</a></li>
+            <li><a href="#">ポートフォリオ</a></li>
+            <li><a href="#">連絡先</a></li>
+          </ul>
+        </nav>
+        <p>copyright © Matsuda Kouta, All Right Reserved.　　<a href="https://twitter.com/kou87221"><i class="fab fa-twitter-square ft-tw"></i></a></p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</script>
+  </body>
+</html>
